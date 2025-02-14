@@ -1,0 +1,51 @@
+body {
+    background-color: plum;
+}
+
+h1 {
+    text-align: center;
+    font-size: 86px;
+    color: white;
+}
+
+#shops {
+    display: flex;
+    justify-content: center;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+}
+
+#addresses {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#fish, #white {
+    width: 500px;
+    height: 384px;
+}
+
+hr {
+    border: 2px solid white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+footer {
+    text-align: left;
+    font-style: italic;
+    font-family: monospace;
+    color: white;
+}
+
+a {
+    color: white;
+    text-align: center;
+}
+
+a:hover {
+    color: purple;
+}
